@@ -10,7 +10,7 @@ const Navbar = (props: Props) => {
   const { palette } = useTheme();
   const [selected, setSelected] = useState("dashboard");
   return (
-    <FlexBetween mb=".25rem" p=".5rem 0rem" color={palette.grey[300]}>
+    <FlexBetween mb="1rem" p=".5rem 0rem" color={palette.grey[300]}>
       {/* LEFT SIDE */}
       <FlexBetween gap=".75rem">
         <PixIcon sx={{ fontSize: "28px" }} />
